@@ -44,16 +44,21 @@
                         </button>
                         <span class="dispmob mobile-details-blk" data-toggle="modal" data-target=".mobile-details"><i class="fa fa-user"></i></span>
                     </div>
-                    <div class="dateblk">Sunday - Jan 24, 2016</div>
+                    <div class="dateblk"><?php echo date('l \- M d, Y'); ?></div>
                     <div class="scrollbar-macosx">
                         <div class="navbar-collapse collapse" id="navbar2">
 
                             <ul class="cbp-vimenu" id="menu">
-                                <li><a href="#/home" class="clrbrd1">Dashboard</a></li>
-                                <li><a href="#/admin/PaymentLog" class="clrbrd2">Payment Log</a></li>
+                                <li><a href="#/home" class="clrbrd1">Home</a></li>
+                                
+                                <li><a href="#/ApproveProfile" class="clrbrd2">Profile</a></li>
+                                <li><a href="#/licenseApp" class="clrbrd3">License Application</a></li>
+                                <li><a href="#/visaApp" class="clrbrd4">Visa Application</a></li>
+                                <li><a href="#/admin/userlog" class="clrbrd5">User Log</a></li>
+                               <!-- <li><a href="#/admin/PaymentLog" class="clrbrd2">Payment Log</a></li>
                                 <li><a href="#/admin/userlog" class="clrbrd3">User Log</a></li>
                                 <li><a href="#/admin/SchedPayments" class="clrbrd4">Scheduled Payments</a></li>
-                                <li><a href="#/admin/ApproveProfile" class="clrbrd5">Profile Changes</a></li>
+                                <li><a href="#/admin/ApproveProfile" class="clrbrd5">Profile Changes</a></li>-->
                             </ul>
                         </div>
                         <div class="hidden-xs">

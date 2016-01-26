@@ -1,6 +1,6 @@
 ﻿
 'use strict';
-var baseURL = 'http://localhost/vzapp';
+var baseURL = 'http://localhost/civzapp';
 var northwindApp = angular.module('northwindApp', ['kendo.directives', 'ngRoute'])
 
 
